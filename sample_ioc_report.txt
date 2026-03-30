@@ -1,0 +1,80 @@
+============================================================
+        HONEYPOT IOC REPORT
+        Generated: 2026-03-30 21:45:53 UTC
+============================================================
+
+[SSH SUMMARY]
+  Total SSH connections : 30243
+  Total login attempts  : 29124
+  Unique attacker IPs   : 542
+
+[TOP 10 SSH ATTACKER IPs]
+  46.62.145.156        23205 attempts
+  103.61.122.197       442 attempts
+  103.121.157.77       387 attempts
+  213.209.159.158      150 attempts
+  172.178.113.187      93 attempts
+  213.165.52.102       88 attempts
+  163.7.8.90           77 attempts
+  124.243.170.62       76 attempts
+  171.243.151.24       74 attempts
+  45.148.10.240        66 attempts
+
+[TOP 10 USERNAMES TRIED]
+  root                           27920 times
+  admin                          229 times
+  user                           138 times
+  ubuntu                         133 times
+  debian                         105 times
+  test                           46 times
+  oracle                         39 times
+  sol                            25 times
+  usuario                        24 times
+  ftpuser                        20 times
+
+[TOP 10 PASSWORDS TRIED]
+  123456                         58 times
+  admin                          57 times
+  1234                           49 times
+  123                            42 times
+  root                           38 times
+  password                       34 times
+  12345678                       32 times
+  qwerty                         32 times
+  fjbdfdjkdsfs541544@@           32 times
+  test                           31 times
+
+[HTTP SUMMARY]
+  Total HTTP connections : 14321
+  Unique attacker IPs    : 398
+
+[TOP 10 HTTP ATTACKER IPs]
+  45.148.10.247        2559 requests
+  45.148.10.244        2540 requests
+  20.220.232.240       612 requests
+  20.151.11.236        604 requests
+  172.104.241.98       601 requests
+  20.168.65.162        502 requests
+  20.63.96.180         404 requests
+  20.48.232.178        402 requests
+  68.155.145.150       282 requests
+  20.107.195.165       282 requests
+
+[TOP 10 PROBED PATHS]
+  /                                        348 times
+  /.env                                    49 times
+  /favicon.ico                             43 times
+  /robots.txt                              23 times
+  /wp-content/plugins/hellopress/wp_filemanager.php 20 times
+  /SDK/webLanguage                         14 times
+  /gptsh.php                               13 times
+  /bolt.php                                12 times
+  /inputs.php                              12 times
+  /admin.php                               12 times
+
+[TOP 10 USER AGENTS]
+  Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0)  2540 times
+  Unknown                                            2383 times
+  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb 880 times
+  Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebK 294 times
+  libredtail-http                                    243 times
