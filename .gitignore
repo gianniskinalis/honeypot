@@ -1,0 +1,4 @@
+logs/
+honeypot_rsa.key
+__pycache__/
+*.pyc
